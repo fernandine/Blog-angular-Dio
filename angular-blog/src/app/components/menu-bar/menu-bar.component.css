@@ -1,0 +1,32 @@
+a {text-decoration: none;}
+
+.menu {
+  margin: auto;
+  width: 1000px;
+}
+
+
+nav {
+  background: #febf01;
+  font-size: 0;
+  position: relative;
+
+}
+
+nav > ul > li {
+  display: inline-block;
+    font-size: 20px;
+    padding: 0 15px;
+}
+
+nav > ul > li > a {
+  color: #fff;
+    display: block;
+    padding: 20px 0;
+    border-bottom: 3px solid transparent;
+    transition: all .3s ease;
+}
+nav > ul > li:hover > a {
+  color: #444;
+    border-bottom: 3px solid #444;
+}
